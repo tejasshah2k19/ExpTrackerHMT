@@ -88,7 +88,10 @@
         </select>
 
         <button type="submit">Sign Up</button>
+   <br><br>
+    <a href="Login.jsp">Existing User?</a>  
     </form>
+    
 
 </body>
 </html>

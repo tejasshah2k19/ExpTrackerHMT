@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Login Page</title>
+    <title>ForgetPassword</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -63,26 +63,23 @@
 </head>
 <body>
 
-    <form action="LoginController" method="post" class="signup-form">
-        <h2>Login</h2>
+    <form action="ForgetPasswordController" method="post" class="signup-form">
+        <h2>ForgetPassword</h2>
 
-       
- 
+        
+
         <label for="email">Email</label>
         <input type="email" id="email" name="email" required>
 
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" required>
+  
+      
 
-         
-
-        <button type="submit">Login</button>
-       <br><br>
-    <a href="Signup.jsp">New User?</a>  
-	<br>    
-	<a href="ForgetPassword.jsp">ForgetPassword?</a>  
-	
+        <button type="submit">Help</button>
+   <br><br>
+    <a href="Login.jsp">Back</a>
+      
     </form>
+    
 
 </body>
 </html>
