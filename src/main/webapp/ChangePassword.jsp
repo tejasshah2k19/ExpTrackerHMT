@@ -61,7 +61,7 @@ body {
 </head>
 <body>
 
-	<form action="SignupController" method="post" class="signup-form">
+	<form action="ChangePasswordController" method="post" class="signup-form">
 		<h2>Change Password</h2>
 
 
